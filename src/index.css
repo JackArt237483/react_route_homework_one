@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(90deg, #358625, transparent);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.navigate_link{
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigate_link > li{
+  list-style: none;
+  text-decoration: none;
+  color: brown;
+  font-size: 50px;
+}
+.navigate_link > li > a{
+  text-decoration: none;
+  color: chocolate;
+}
+.navigate_link > li > a:hover{
+  color: rgb(201, 218, 14);
+}
+.posts{
+  background-color: darkslategrey;
+  width: 1200px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+.posts h1{
+  font-size: 40px;
+  line-height: 23px;
+}
+.posts p{
+  font-size: 30px;
+  line-height: 23px;
+}
+footer{
+  font-size: 30px;
+  margin-top: 100px;
+}
+.one_score input{
+  width: 500px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 1px soild yellow;
+}
+.one_score textarea{
+  width: 500px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 1px soild yellow;
+}
+
+
+
